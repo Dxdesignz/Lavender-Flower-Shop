@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lavender Flower</title>
+  <!---------- favicon link -------->
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png" />
+  <!---------- favicon link -------->
+  <!---------- link css ------------>
+  <link rel="stylesheet" href="style.css" />
+  <!---------- link css ------------>
+  <!---------- Font Icon ----------->
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css" />
+  <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css" />
+  <!---------- Font Icon ----------->
+  <!---------- swiper js ----------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!---------- swiper js ----------->
+  <!-----------jquery link --------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-----------jquery link --------->
+  <!-----------Aos    link --------->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-----------Aos    link --------->
+</head>
+
+<body>
+
+  <!-----------Top Area ------------>
+  <a href="#hero"><i class="fi fi-rr-caret-up" id="upper"></i></a>
+  <!-----------Top Area ------------>
+
+  <!-----------Animation Area ------>
+  <div class="loading">
+    <img src="img/love.gif" alt="">
+  </div>
+  <!-----------Animation Area ------>
+
+  <!-----------Header Area --------->
+  <section class="header" id="header">
+    <div class="container">
+      <a href="#hero"><img src="img/logo.png" alt="logo" /></a>
+      <div class="navbar">
+        <div class="datas">
+          <a href="#hero" id="active">home</a>
+          <a href="#">about us</a>
+          <a href="#cat">catalogue</a>
+          <a href="#">store</a>
+          <a href="#con">contact </a>
+        </div>
+      </div>
+      <div class="right">
+        <i class="fi fi-br-menu-burger" id="menu"></i>
+        <i class="fi fi-sr-shopping-cart"></i>
+        <button><a href="#">shop now</a></button>
+      </div>
+    </div>
+  </section>
+  <!-----------Header Area --------->
+
+  <!-----------Hero   Area --------->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="text">
+        <h5>new flower</h5>
+        <h1>
+          Bouquet <span>of pink</span><br />
+          special flowers
+        </h1>
+        <p>
+          Nestled amidst verdant fields and blossoming gardens, the tulip
+          stands<br />as a beacon of elegance and grace, captivating hearts.
+        </p>
+        <div class="cart">
+          <h4>$10.00</h4>
+          <select id="flower">
+            <option value="flower">flower</option>
+            <option value="12 flower">12 flower</option>
+            <option value="50 flower">50 flower</option>
+            <option value="80 flower">80 flower</option>
+            <option value="100 flower">100 flower</option>
+          </select>
+
+          <select id="location">
+            <option value="location">location</option>
+            <option value="Usa">Usa</option>
+            <option value="London">London</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="China">China</option>
+          </select>
+
+          <button><a href="#">add to cart</a></button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img/hero-main.png" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-----------Hero   Area --------->
+
+  <!-----------Catalogue Area ------>
+  <section class="cat" id="cat">
+    <h1>
+      Lavender <span>flower</span><br />
+      catalogue
+    </h1>
+    <div class="container">
+      <div class="col-1">
+        <div class="box">
+          <div class="text">
+            <h3>Upto 10% Off</h3>
+            <h2>Blue Haven</h2>
+            <a href="#">Shop Now</a>
+          </div>
+          <div class="image">
+            <img src="img/c1.png" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3>Upto 30% Off</h3>
+            <h2>Summer</h2>
+            <a href="#">Shop Now</a>
+          </div>
+          <div class="image">
+            <img src="img/c2.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1" id="col-2">
+        <div class="box">
+          <div class="text">
+            <h3>Upto 10% Off</h3>
+            <h2>palette</h2>
+            <a href="#">Shop Now</a>
+          </div>
+          <div class="image">
+            <img src="img/c3.png" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="text">
+            <h3>Upto 50% Off</h3>
+            <h2>weeding</h2>
+            <a href="#">Shop Now</a>
+          </div>
+          <div class="image">
+            <img src="img/c4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------Catalogue Area ------>
+
+  <!-----------Feedback  Area ------>
+  <section class="review" id="review">
+    <h1>
+      Lavender <span>flower</span><br />
+      feedback
+    </h1>
+    <div class="swiper review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box" onmouseover="mOver()" onmouseout="mOut()" id="box">
+          <div class="data">
+            <div class="top">
+              <div class="image">
+                <img src="img/t1.png" alt="t" />
+                <div class="detail">
+                  <h5 id="h5">Pamela A. Steele</h5>
+                  <div class="date" id="date">09/03/2024</div>
+                </div>
+              </div>
+              <div class="google">
+                <img src="img/google.png" alt="" />
+              </div>
+            </div>
+            <img src="img/star.png" alt="" id="stars" />
+            <p id="para">
+              I recently had the pleasure of visiting [new<br />
+              york] and I must say, it exceeded a
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide box" onmouseover="mOver2()" onmouseout="mOut2()" id="box2">
+          <div class="data">
+            <div class="top">
+              <div class="image">
+                <img src="img/t2.png" alt="t" />
+                <div class="detail">
+                  <h5 id="h52">Roselyn T. Boykins</h5>
+                  <div class="date" id="date2">10/03/2024</div>
+                </div>
+              </div>
+              <div class="google">
+                <img src="img/google.png" alt="" />
+              </div>
+            </div>
+            <img src="img/star.png" alt="" id="stars" />
+            <p id="para2">
+              I especially loved [mention a specific dish or<br />feature].
+              The attention to detail was nice!
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide box" onmouseover="mOver3()" onmouseout="mOut3()" id="box3">
+          <div class="data">
+            <div class="top">
+              <div class="image">
+                <img src="img/t3.png" alt="t" />
+                <div class="detail">
+                  <h5 id="h53">Eric J. Miller</h5>
+                  <div class="date" id="date3">10/03/2024</div>
+                </div>
+              </div>
+              <div class="google">
+                <img src="img/google.png" alt="" />
+              </div>
+            </div>
+            <img src="img/star.png" alt="" id="stars" />
+            <p id="para3">
+              My recent experience at [flower shop] was<br />nothing short of
+              exceptional. From moments
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide box" onmouseover="mOver4()" onmouseout="mOut4()" id="box4">
+          <div class="data">
+            <div class="top">
+              <div class="image">
+                <img src="img/t2.png" alt="t" />
+                <div class="detail">
+                  <h5 id="h54">Roselyn T. Boykins</h5>
+                  <div class="date" id="date4">10/03/2024</div>
+                </div>
+              </div>
+              <div class="google">
+                <img src="img/google.png" alt="" />
+              </div>
+            </div>
+            <img src="img/star.png" alt="" id="stars" />
+            <p id="para4">
+              I especially loved [mention a specific dish or<br />feature].
+              The attention to detail was nice!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------Feedback  Area ------>
+
+  <!-----------Contact  Area ------->
+  <section class="con" id="con">
+    <h1>
+      Lavender <span>flower</span><br />
+      contact us
+    </h1>
+    <div class="container">
+      <div class="left-data">
+        <h5>info</h5>
+        <div class="icons">
+          <div class="i">
+            <img src="img/l.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>v96U Nordului, Ap.16, Bucharest<br />014104, Romania</p>
+          </div>
+        </div>
+        <div class="icons" id="phone">
+          <div class="i">
+            <img src="img/p.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>+1 257-896-578</p>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="i">
+            <img src="img/e.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>www.lavender flower.com</p>
+          </div>
+        </div>
+        <div class="social">
+          <i class="fi fi-brands-facebook"></i>
+          <i class="fi fi-brands-instagram"></i>
+          <i class="fi fi-brands-twitter"></i>
+        </div>
+      </div>
+
+      <form action="#">
+        <div class="name">
+          <img src="img/leaf2.png" alt="">
+          <input type="text" name="name" id="name" placeholder="first name" required autocomplete="off" />
+        </div>
+        <input type="email" name="email" name="email" id="email" placeholder="email" required autocomplete="off" />
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required
+          autocomplete="off"></textarea>
+        <button type="submit" id="submit" name="submit">Submit Now</button>
+      </form>
+    </div>
+  </section>
+  <!-----------Contact  Area ------->
+
+  <!-----------Footer  Area -------->
+  <section class="footer" id="footer">
+    <div class="container">
+      <div class="image">
+        <img src="img/logo.png" alt="" />
+      </div>
+
+      <div class="navbar">
+        <div class="data">
+          <a href="#hero" id="active">home</a>
+          <a href="#">about us</a>
+          <a href="#cat">catalogue</a>
+          <a href="#">store</a>
+          <a href="#con">contact </a>
+        </div>
+      </div>
+
+      <div class="left-data">
+        <div class="icons">
+          <div class="i">
+            <img src="img/l.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>v96U Nordului, Ap.16, Bucharest<br />014104, Romania</p>
+          </div>
+        </div>
+        <div class="icons" id="phone">
+          <div class="i">
+            <img src="img/p.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>+1 257-896-578</p>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="i">
+            <img src="img/e.png" alt="" />
+          </div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>www.lavender flower.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last">
+      <p>copyright by lavender flower shop 2024!</p>
+    </div>
+  </section>
+  <!-----------Footer  Area -------->
+</body>
+<!---------- swiper js ----------->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<!---------- swiper js ----------->
+<!---------- javascript ---------->
+<script src="style.js"></script>
+<!---------- javascript ---------->
+<!-----------jquery link --------->
+<script src="jquery-3.6.4.min.js"></script>
+<!-----------jquery link --------->
+<!-----------Aos    link --------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-----------Aos    link---------->
+
+</html>
